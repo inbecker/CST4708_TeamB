@@ -18,3 +18,4 @@ C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug
 C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.pdb
 C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.CategoriesControl.resources
 C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.HomeControl.resources
+C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csprojAssemblyReference.cache
