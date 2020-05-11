@@ -1,0 +1,10 @@
+C:\Users\eudel\source\repos\Product_Listing\Product_Listing\bin\Debug\Product_Listing.exe.config
+C:\Users\eudel\source\repos\Product_Listing\Product_Listing\bin\Debug\Product_Listing.exe
+C:\Users\eudel\source\repos\Product_Listing\Product_Listing\bin\Debug\Product_Listing.pdb
+C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csprojAssemblyReference.cache
+C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.Form1.resources
+C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.Properties.Resources.resources
+C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csproj.GenerateResource.cache
+C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csproj.CoreCompileInputs.cache
+C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.exe
+C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.pdb
