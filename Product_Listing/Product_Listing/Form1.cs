@@ -15,6 +15,7 @@ namespace Product_Listing
 		public Form1()
 		{
 			InitializeComponent();
+			homeControl.BringToFront();
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
@@ -44,12 +45,12 @@ namespace Product_Listing
 
 		private void Home_Click(object sender, EventArgs e)
 		{
-
+			homeControl.BringToFront();
 		}
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-
+			categoriesControl1.BringToFront();
 		}
 
 		private void button6_Click(object sender, EventArgs e)

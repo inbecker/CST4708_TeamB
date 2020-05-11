@@ -8,3 +8,13 @@ C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Li
 C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csproj.CoreCompileInputs.cache
 C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.exe
 C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.pdb
+C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\bin\Debug\Product_Listing.exe.config
+C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\bin\Debug\Product_Listing.exe
+C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\bin\Debug\Product_Listing.pdb
+C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.Form1.resources
+C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.Properties.Resources.resources
+C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csproj.GenerateResource.cache
+C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.exe
+C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.pdb
+C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.CategoriesControl.resources
+C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.HomeControl.resources
