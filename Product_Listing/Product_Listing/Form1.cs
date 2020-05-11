@@ -55,7 +55,7 @@ namespace Product_Listing
 
 		private void button6_Click(object sender, EventArgs e)
 		{
-
+			shoppingCart2.BringToFront();
 		}
 
 		private void panel3_Paint(object sender, PaintEventArgs e)
