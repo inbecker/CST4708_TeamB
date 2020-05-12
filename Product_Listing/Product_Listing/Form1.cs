@@ -16,6 +16,7 @@ namespace Product_Listing
 		{
 			InitializeComponent();
 			homeControl.BringToFront();
+			button7.SendToBack();
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
@@ -71,6 +72,23 @@ namespace Product_Listing
 		private void panel9_Paint(object sender, PaintEventArgs e)
 		{
 
+		}
+
+		private void RegisterButton_Click(object sender, EventArgs e)
+		{
+			registrationControl1.BringToFront();
+			button7.BringToFront();
+		}
+
+		private void button7_Click(object sender, EventArgs e)
+		{
+			registrationControl1.SendToBack();
+			button7.SendToBack();
+		}
+
+		private void pictureBox8_Click(object sender, EventArgs e)
+		{
+			Application.Exit();
 		}
 	}
 }

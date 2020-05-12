@@ -66,6 +66,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RegistrationControl.Designer.cs">
+      <DependentUpon>RegistrationControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="shoppingCart.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -91,6 +97,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RegistrationControl.resx">
+      <DependentUpon>RegistrationControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="shoppingCart.resx">
       <DependentUpon>shoppingCart.cs</DependentUpon>
     </EmbeddedResource>

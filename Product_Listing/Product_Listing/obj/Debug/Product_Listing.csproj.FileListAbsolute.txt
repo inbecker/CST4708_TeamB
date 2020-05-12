@@ -31,4 +31,4 @@ C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listi
 C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.pdb
 C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.shoppingCart.resources
 C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.shoppingCart.resources
-C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csprojAssemblyReference.cache
+C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.RegistrationControl.resources
