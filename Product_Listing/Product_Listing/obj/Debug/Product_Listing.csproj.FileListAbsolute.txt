@@ -1,34 +1,38 @@
-C:\Users\eudel\source\repos\Product_Listing\Product_Listing\bin\Debug\Product_Listing.exe.config
-C:\Users\eudel\source\repos\Product_Listing\Product_Listing\bin\Debug\Product_Listing.exe
-C:\Users\eudel\source\repos\Product_Listing\Product_Listing\bin\Debug\Product_Listing.pdb
-C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csprojAssemblyReference.cache
-C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.Form1.resources
-C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.Properties.Resources.resources
-C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csproj.GenerateResource.cache
-C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csproj.CoreCompileInputs.cache
-C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.exe
-C:\Users\eudel\source\repos\Product_Listing\Product_Listing\obj\Debug\Product_Listing.pdb
-C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\bin\Debug\Product_Listing.exe.config
-C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\bin\Debug\Product_Listing.exe
-C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\bin\Debug\Product_Listing.pdb
-C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.Form1.resources
-C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.Properties.Resources.resources
-C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csproj.GenerateResource.cache
-C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.exe
-C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.pdb
-C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.CategoriesControl.resources
-C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.HomeControl.resources
-C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\bin\Debug\Product_Listing.exe.config
-C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\bin\Debug\Product_Listing.exe
-C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\bin\Debug\Product_Listing.pdb
-C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.CategoriesControl.resources
-C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.Form1.resources
-C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.Form2.resources
-C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.HomeControl.resources
-C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.Properties.Resources.resources
-C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csproj.GenerateResource.cache
-C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.exe
-C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.pdb
-C:\Users\haide\Source\Repos\inbecker\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.shoppingCart.resources
-C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.shoppingCart.resources
-C:\Users\bharu\Documents\CST4708_TeamB\Product_Listing\Product_Listing\obj\Debug\Product_Listing.RegistrationControl.resources
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\AmericanAle\3788.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\AmericanAle\3792.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\AmericanAle\3794.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\AmericanLager\3784.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\AmericanLager\3785.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\AmericanLager\3790.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\BelgianAndFrenchAle\3797.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\BelgianAndFrenchAle\3976.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\BelgianAndFrenchAle\3977.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\BelgianFrenchAle\3797.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\BelgianFrenchAle\3976.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\BelgianFrenchAle\3977.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\BritishAle\3793.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\BritishAle\3979.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\BritishAle\4079.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\IrishAle\3805.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\IrishAle\4084.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\IrishAle\4560.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\OtherStyles\3789.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\OtherStyles\3791.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Beer Images\OtherStyles\3799.png
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Product_Listing.exe.config
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Product_Listing.exe
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\bin\Debug\Product_Listing.pdb
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.BeerControl.resources
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.BeersViewControl.resources
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.CategoriesControl.resources
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.Form1.resources
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.HomeControl.resources
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.LoginControl.resources
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.Properties.Resources.resources
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.RegistrationControl.resources
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.ShoppingCartControl.resources
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csproj.GenerateResource.cache
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csproj.CoreCompileInputs.cache
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.exe
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.pdb
+C:\Users\ingri\OneDrive\Escritorio\Final\CST4708-FinalProject\CST4708-FinalProject\Product_Listing\Product_Listing\obj\Debug\Product_Listing.csprojAssemblyReference.cache

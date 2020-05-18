@@ -28,135 +28,165 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.Button button12;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CategoriesControl));
-            System.Windows.Forms.Button button11;
-            System.Windows.Forms.Button button10;
-            System.Windows.Forms.Button button9;
-            System.Windows.Forms.Button button8;
-            System.Windows.Forms.Button button7;
-            this.panel9 = new System.Windows.Forms.Panel();
-            button12 = new System.Windows.Forms.Button();
-            button11 = new System.Windows.Forms.Button();
-            button10 = new System.Windows.Forms.Button();
-            button9 = new System.Windows.Forms.Button();
-            button8 = new System.Windows.Forms.Button();
-            button7 = new System.Windows.Forms.Button();
-            this.panel9.SuspendLayout();
-            this.SuspendLayout();
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.Transparent;
-            this.panel9.Controls.Add(button12);
-            this.panel9.Controls.Add(button11);
-            this.panel9.Controls.Add(button10);
-            this.panel9.Controls.Add(button9);
-            this.panel9.Controls.Add(button8);
-            this.panel9.Controls.Add(button7);
-            this.panel9.Location = new System.Drawing.Point(0, 24);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(651, 294);
-            this.panel9.TabIndex = 16;
-            // 
-            // button12
-            // 
-            button12.FlatAppearance.BorderSize = 0;
-            button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button12.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Bold);
-            button12.Image = ((System.Drawing.Image)(resources.GetObject("button12.Image")));
-            button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            button12.Location = new System.Drawing.Point(464, 191);
-            button12.Name = "button12";
-            button12.Size = new System.Drawing.Size(150, 54);
-            button12.TabIndex = 11;
-            button12.Text = "Witbier";
-            button12.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            button11.FlatAppearance.BorderSize = 0;
-            button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button11.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Bold);
-            button11.Image = ((System.Drawing.Image)(resources.GetObject("button11.Image")));
-            button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            button11.Location = new System.Drawing.Point(251, 191);
-            button11.Name = "button11";
-            button11.Size = new System.Drawing.Size(150, 54);
-            button11.TabIndex = 10;
-            button11.Text = "Pilsner";
-            button11.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            button10.FlatAppearance.BorderSize = 0;
-            button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button10.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Bold);
-            button10.Image = ((System.Drawing.Image)(resources.GetObject("button10.Image")));
-            button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            button10.Location = new System.Drawing.Point(38, 191);
-            button10.Name = "button10";
-            button10.Size = new System.Drawing.Size(150, 54);
-            button10.TabIndex = 9;
-            button10.Text = "Porter";
-            button10.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            button9.FlatAppearance.BorderSize = 0;
-            button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button9.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Bold);
-            button9.Image = ((System.Drawing.Image)(resources.GetObject("button9.Image")));
-            button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            button9.Location = new System.Drawing.Point(464, 58);
-            button9.Name = "button9";
-            button9.Size = new System.Drawing.Size(150, 54);
-            button9.TabIndex = 8;
-            button9.Text = "Pale Ale";
-            button9.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            button8.FlatAppearance.BorderSize = 0;
-            button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button8.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Bold);
-            button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            button8.Location = new System.Drawing.Point(38, 58);
-            button8.Name = "button8";
-            button8.Size = new System.Drawing.Size(150, 54);
-            button8.TabIndex = 7;
-            button8.Text = "Ale";
-            button8.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            button7.FlatAppearance.BorderSize = 0;
-            button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            button7.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Bold);
-            button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            button7.Location = new System.Drawing.Point(251, 58);
-            button7.Name = "button7";
-            button7.Size = new System.Drawing.Size(150, 54);
-            button7.TabIndex = 6;
-            button7.Text = "Lager";
-            button7.UseVisualStyleBackColor = true;
-            // 
-            // CategoriesControl
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel9);
-            this.Name = "CategoriesControl";
-            this.Size = new System.Drawing.Size(651, 350);
-            this.panel9.ResumeLayout(false);
-            this.ResumeLayout(false);
+			System.Windows.Forms.Button beerCategory6;
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CategoriesControl));
+			System.Windows.Forms.Button beerCategory5;
+			System.Windows.Forms.Button beerCategory4;
+			System.Windows.Forms.Button beerCategory3;
+			System.Windows.Forms.Button beerCategory1;
+			System.Windows.Forms.Button beerCategory2;
+			this.panel9 = new System.Windows.Forms.Panel();
+			this.beersViewControl = new Product_Listing.BeersViewControl();
+			beerCategory6 = new System.Windows.Forms.Button();
+			beerCategory5 = new System.Windows.Forms.Button();
+			beerCategory4 = new System.Windows.Forms.Button();
+			beerCategory3 = new System.Windows.Forms.Button();
+			beerCategory1 = new System.Windows.Forms.Button();
+			beerCategory2 = new System.Windows.Forms.Button();
+			this.panel9.SuspendLayout();
+			this.SuspendLayout();
+			// 
+			// beerCategory6
+			// 
+			beerCategory6.FlatAppearance.BorderSize = 0;
+			beerCategory6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			beerCategory6.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Bold);
+			beerCategory6.Image = ((System.Drawing.Image)(resources.GetObject("beerCategory6.Image")));
+			beerCategory6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			beerCategory6.Location = new System.Drawing.Point(928, 367);
+			beerCategory6.Margin = new System.Windows.Forms.Padding(6);
+			beerCategory6.Name = "beerCategory6";
+			beerCategory6.Size = new System.Drawing.Size(300, 104);
+			beerCategory6.TabIndex = 11;
+			beerCategory6.Tag = "OtherStyles";
+			beerCategory6.Text = "Witbier";
+			beerCategory6.UseVisualStyleBackColor = true;
+			beerCategory6.Click += new System.EventHandler(this.beerCategory_Click);
+			// 
+			// beerCategory5
+			// 
+			beerCategory5.FlatAppearance.BorderSize = 0;
+			beerCategory5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			beerCategory5.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Bold);
+			beerCategory5.Image = ((System.Drawing.Image)(resources.GetObject("beerCategory5.Image")));
+			beerCategory5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			beerCategory5.Location = new System.Drawing.Point(502, 367);
+			beerCategory5.Margin = new System.Windows.Forms.Padding(6);
+			beerCategory5.Name = "beerCategory5";
+			beerCategory5.Size = new System.Drawing.Size(300, 104);
+			beerCategory5.TabIndex = 10;
+			beerCategory5.Tag = "BritishAle";
+			beerCategory5.Text = "Pilsner";
+			beerCategory5.UseVisualStyleBackColor = true;
+			beerCategory5.Click += new System.EventHandler(this.beerCategory_Click);
+			// 
+			// beerCategory4
+			// 
+			beerCategory4.FlatAppearance.BorderSize = 0;
+			beerCategory4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			beerCategory4.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Bold);
+			beerCategory4.Image = ((System.Drawing.Image)(resources.GetObject("beerCategory4.Image")));
+			beerCategory4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			beerCategory4.Location = new System.Drawing.Point(76, 367);
+			beerCategory4.Margin = new System.Windows.Forms.Padding(6);
+			beerCategory4.Name = "beerCategory4";
+			beerCategory4.Size = new System.Drawing.Size(300, 104);
+			beerCategory4.TabIndex = 9;
+			beerCategory4.Tag = "BelgianAndFrenchAle";
+			beerCategory4.Text = "Porter";
+			beerCategory4.UseVisualStyleBackColor = true;
+			beerCategory4.Click += new System.EventHandler(this.beerCategory_Click);
+			// 
+			// beerCategory3
+			// 
+			beerCategory3.FlatAppearance.BorderSize = 0;
+			beerCategory3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			beerCategory3.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Bold);
+			beerCategory3.Image = ((System.Drawing.Image)(resources.GetObject("beerCategory3.Image")));
+			beerCategory3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			beerCategory3.Location = new System.Drawing.Point(928, 112);
+			beerCategory3.Margin = new System.Windows.Forms.Padding(6);
+			beerCategory3.Name = "beerCategory3";
+			beerCategory3.Size = new System.Drawing.Size(300, 104);
+			beerCategory3.TabIndex = 8;
+			beerCategory3.Tag = "AmericanAle";
+			beerCategory3.Text = "Pale Ale";
+			beerCategory3.UseVisualStyleBackColor = true;
+			beerCategory3.Click += new System.EventHandler(this.beerCategory_Click);
+			// 
+			// beerCategory1
+			// 
+			beerCategory1.FlatAppearance.BorderSize = 0;
+			beerCategory1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			beerCategory1.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Bold);
+			beerCategory1.Image = ((System.Drawing.Image)(resources.GetObject("beerCategory1.Image")));
+			beerCategory1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			beerCategory1.Location = new System.Drawing.Point(76, 112);
+			beerCategory1.Margin = new System.Windows.Forms.Padding(6);
+			beerCategory1.Name = "beerCategory1";
+			beerCategory1.Size = new System.Drawing.Size(300, 104);
+			beerCategory1.TabIndex = 7;
+			beerCategory1.Tag = "IrishAle";
+			beerCategory1.Text = "Ale";
+			beerCategory1.UseVisualStyleBackColor = true;
+			beerCategory1.Click += new System.EventHandler(this.beerCategory_Click);
+			// 
+			// beerCategory2
+			// 
+			beerCategory2.FlatAppearance.BorderSize = 0;
+			beerCategory2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			beerCategory2.Font = new System.Drawing.Font("Yu Gothic UI", 8.25F, System.Drawing.FontStyle.Bold);
+			beerCategory2.Image = ((System.Drawing.Image)(resources.GetObject("beerCategory2.Image")));
+			beerCategory2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			beerCategory2.Location = new System.Drawing.Point(502, 112);
+			beerCategory2.Margin = new System.Windows.Forms.Padding(6);
+			beerCategory2.Name = "beerCategory2";
+			beerCategory2.Size = new System.Drawing.Size(300, 104);
+			beerCategory2.TabIndex = 6;
+			beerCategory2.Tag = "AmericanLager";
+			beerCategory2.Text = "Lager";
+			beerCategory2.UseVisualStyleBackColor = true;
+			beerCategory2.Click += new System.EventHandler(this.beerCategory_Click);
+			// 
+			// panel9
+			// 
+			this.panel9.BackColor = System.Drawing.Color.Transparent;
+			this.panel9.Controls.Add(beerCategory6);
+			this.panel9.Controls.Add(beerCategory5);
+			this.panel9.Controls.Add(beerCategory4);
+			this.panel9.Controls.Add(beerCategory3);
+			this.panel9.Controls.Add(beerCategory1);
+			this.panel9.Controls.Add(beerCategory2);			
+			this.panel9.Location = new System.Drawing.Point(0, 25);
+			this.panel9.Margin = new System.Windows.Forms.Padding(6);
+			this.panel9.Name = "panel9";
+			this.panel9.Size = new System.Drawing.Size(1302, 586);
+			this.panel9.TabIndex = 16;
+			// 
+			// beersViewControl
+			// 
+			this.beersViewControl.Location = new System.Drawing.Point(3, 3);
+			this.beersViewControl.Name = "beersViewControl";
+			this.beersViewControl.Size = new System.Drawing.Size(1296, 529);
+			this.beersViewControl.TabIndex = 12;
+			// 
+			// CategoriesControl
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.Controls.Add(this.panel9);
+			this.Controls.Add(this.beersViewControl);
+			this.Margin = new System.Windows.Forms.Padding(6);
+			this.Name = "CategoriesControl";
+			this.Size = new System.Drawing.Size(1341, 654);
+			this.panel9.ResumeLayout(false);
+			this.ResumeLayout(false);
 
         }
 
         #endregion
 
         private System.Windows.Forms.Panel panel9;
-    }
+		private BeersViewControl beersViewControl;
+	}
 }

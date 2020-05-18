@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Product_Listing
@@ -15,10 +8,29 @@ namespace Product_Listing
 		public Form1()
 		{
 			InitializeComponent();
+			this.registrationControl1.OnSucessfullRegistration += SucessfullRegistration;
+			this.registrationControl1.OnLoginRequest += ShowLoginForm;
+			this.loginControl.OnSucessfullLogin += OnSucessfullLogin;
 			homeControl.BringToFront();
 			button7.SendToBack();
 		}
 
+		private void OnSucessfullLogin()
+		{
+			homeControl.BringToFront();
+		}
+
+		private void ShowLoginForm()
+		{
+			loginControl.BringToFront();
+		}
+
+		private void SucessfullRegistration()
+		{
+			homeControl.BringToFront();			
+		}
+
+		
 		private void Form1_Load(object sender, EventArgs e)
 		{
 
@@ -51,11 +63,13 @@ namespace Product_Listing
 
 		private void button1_Click(object sender, EventArgs e)
 		{
+			categoriesControl1.ShowCategories();
 			categoriesControl1.BringToFront();
 		}
 
 		private void button6_Click(object sender, EventArgs e)
 		{
+			shoppingCart2.LoadShoppingCartItems();
 			shoppingCart2.BringToFront();
 		}
 

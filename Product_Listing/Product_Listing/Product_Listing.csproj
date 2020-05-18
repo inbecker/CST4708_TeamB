@@ -12,6 +12,8 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,7 +36,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,12 +53,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BeerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BeerControl.Designer.cs">
+      <DependentUpon>BeerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BeersViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BeersViewControl.Designer.cs">
+      <DependentUpon>BeersViewControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="CategoriesControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="CategoriesControl.Designer.cs">
       <DependentUpon>CategoriesControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Data\Beer.cs" />
+    <Compile Include="Data\BeerCategory.cs" />
+    <Compile Include="Data\BeerStyle.cs" />
+    <Compile Include="Data\Brewery.cs" />
+    <Compile Include="Data\Customer.cs" />
+    <Compile Include="Data\customerEmail.cs" />
+    <Compile Include="Data\customerPhoneNumber.cs" />
+    <Compile Include="Data\Order.cs" />
+    <Compile Include="Data\OrderDetail.cs" />
+    <Compile Include="Data\ProductContext.cs" />
+    <Compile Include="Data\shoppingCart.cs" />
+    <Compile Include="Data\ShoppingCartDetail.cs" />
+    <Compile Include="Data\StateTAX.cs" />
+    <Compile Include="Data\BeerByCategory.cs" />
+    <Compile Include="Data\BeerByStyle.cs" />
+    <Compile Include="Data\BeerByStyleName.cs" />
+    <Compile Include="Data\StandardBeer.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +100,15 @@
     <Compile Include="HomeControl.Designer.cs">
       <DependentUpon>HomeControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LoginControl.Designer.cs">
+      <DependentUpon>LoginControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ConnectionManager.cs" />
+    <Compile Include="Model\Mapper.cs" />
+    <Compile Include="Model\ShoppingCardGridModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistrationControl.cs">
@@ -72,12 +117,18 @@
     <Compile Include="RegistrationControl.Designer.cs">
       <DependentUpon>RegistrationControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="shoppingCart.cs">
+    <Compile Include="ShoppingCartControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="shoppingCart.Designer.cs">
-      <DependentUpon>shoppingCart.cs</DependentUpon>
+    <Compile Include="ShoppingCartControl.Designer.cs">
+      <DependentUpon>ShoppingCartControl.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="BeerControl.resx">
+      <DependentUpon>BeerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BeersViewControl.resx">
+      <DependentUpon>BeersViewControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CategoriesControl.resx">
       <DependentUpon>CategoriesControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,6 +137,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="HomeControl.resx">
       <DependentUpon>HomeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginControl.resx">
+      <DependentUpon>LoginControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -99,9 +153,10 @@
     </Compile>
     <EmbeddedResource Include="RegistrationControl.resx">
       <DependentUpon>RegistrationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="shoppingCart.resx">
-      <DependentUpon>shoppingCart.cs</DependentUpon>
+    <EmbeddedResource Include="ShoppingCartControl.resx">
+      <DependentUpon>ShoppingCartControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -118,6 +173,74 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\beer-six.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Beer Images\AmericanAle\3788.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\AmericanAle\3792.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\AmericanAle\3794.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\AmericanLager\3784.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\AmericanLager\3785.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\AmericanLager\3790.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\BelgianAndFrenchAle\3797.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\BelgianAndFrenchAle\3976.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\BelgianAndFrenchAle\3977.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\BelgianFrenchAle\3797.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\BelgianFrenchAle\3976.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\BelgianFrenchAle\3977.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\BritishAle\3793.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\BritishAle\3979.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\BritishAle\4079.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\IrishAle\3805.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\IrishAle\4084.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\IrishAle\4560.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\OtherStyles\3789.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\OtherStyles\3791.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Beer Images\OtherStyles\3799.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

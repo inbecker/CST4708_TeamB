@@ -52,7 +52,8 @@
             this.RegisterButton = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.registrationControl1 = new Product_Listing.RegistrationControl();
-            this.shoppingCart2 = new Product_Listing.shoppingCart();
+            this.loginControl = new LoginControl();
+            this.shoppingCart2 = new Product_Listing.ShoppingCartControl();
             this.categoriesControl1 = new Product_Listing.CategoriesControl();
             this.homeControl = new Product_Listing.HomeControl();
             HomeButton = new System.Windows.Forms.Button();
@@ -106,6 +107,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.panel2.Controls.Add(this.button7);
+            this.panel2.Controls.Add(this.loginControl);
             this.panel2.Controls.Add(this.registrationControl1);
             this.panel2.Controls.Add(this.shoppingCart2);
             this.panel2.Controls.Add(this.categoriesControl1);
@@ -362,6 +364,14 @@
             this.registrationControl1.Name = "registrationControl1";
             this.registrationControl1.Size = new System.Drawing.Size(651, 350);
             this.registrationControl1.TabIndex = 8;
+            //
+            // 
+            // loginControl
+            // 
+            this.loginControl.Location = new System.Drawing.Point(0, 114);
+            this.loginControl.Name = "loginControl";
+            this.loginControl.Size = new System.Drawing.Size(651, 350);
+            this.loginControl.TabIndex = 9;
             // 
             // shoppingCart2
             // 
@@ -441,9 +451,10 @@
 		private System.Windows.Forms.PictureBox pictureBox8;
         private HomeControl homeControl;
         private CategoriesControl categoriesControl1;
-        private shoppingCart shoppingCart2;
+        private ShoppingCartControl shoppingCart2;
         private System.Windows.Forms.Button RegisterButton;
         private RegistrationControl registrationControl1;
+        private LoginControl loginControl;
         private System.Windows.Forms.Button button7;
     }
 }
